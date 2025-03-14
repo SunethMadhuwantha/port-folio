@@ -45,7 +45,17 @@ const projects=[
     image:"/assests/work/thumb3.png",
     live:"",
     github:"",
-  }
+  },
+  {
+    num:"04",
+    catogory:"backend",
+    title:'project 4',
+    description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt similique quos ratione vero adipisci! Nihil at cum amet earum sequi molestiae voluptate sed voluptates laboriosam aliquam. Voluptate commodi archite",
+    stack:[{name:"Next.js"},{name:"tailwind.css"}],
+    image:"/assests/work/thumb4.png",
+    live:"",
+    github:"",
+  },
 ]
 
 const work = () => {
