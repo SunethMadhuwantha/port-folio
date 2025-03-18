@@ -55,11 +55,30 @@ const Contact = () => {
               <Input type="email" placeholder="Email address"/>
               <Input type="phone" placeholder="Phone number"/>
             </div>
-            
+            <Select>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Select a service"/>
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  <SelectLabel>Select a service</SelectLabel>
+                  <SelectItem value="est">Web development</SelectItem>
+                  <SelectItem value="cst">UI/UX development</SelectItem>
+                  <SelectItem value="mst">Logo development</SelectItem>
+                </SelectGroup>
+
+              </SelectContent>
+            </Select>
+            <Textarea className="h-[200px]" placeholder="Type your message here"  
+            />
+            <Button size="md" className="max-w-40">
+                Send message
+            </Button>
+
           </form>
         </div>
         <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
-          info
+          
         </div>
       </div>
     </div>
